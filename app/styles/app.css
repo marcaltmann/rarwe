@@ -2,6 +2,10 @@
   color: #555;
 }
 
+.page-header a:hover {
+  text-decoration: none;
+}
+
 .navbar-default .navbar-nav > li > a.active,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -58,4 +62,22 @@
 a.star-rating {
   color: inherit;
   text-decoration: none;
+}
+
+.band-info {
+  margin-top: 20px;
+}
+
+.nav-tabs > li > a.active,
+.nav-tabs > li > a.active:hover,
+.nav-tabs > li > a.active:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+.band-description-header {
+  margin-bottom: 20px;
 }
