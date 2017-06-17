@@ -147,7 +147,7 @@ test('Sort songs in various ways', function(assert) {
 
   andThen(function() {
     assert.equal(currentURL(), '/bands/1/songs?sort=titleDesc');
-    assertTrimmedText(assert, '.song:first', 'Spinning in Daffodils',
+    assertTrimmedText(assert, '.song:first', 'Spinning In Daffodils',
       'The first song is the one that is last in the alphabet');
     assertTrimmedText(assert, '.song:last', 'Elephants',
       'The last song is the one that is first in the alphabet');
@@ -159,7 +159,7 @@ test('Sort songs in various ways', function(assert) {
     assert.equal(currentURL(), '/bands/1/songs?sort=ratingAsc');
     assertTrimmedText(assert, '.song:first', 'Mind Eraser, No Chaser',
       'The first song is the lowest ranked, first in the alphabet');
-    assertTrimmedText(assert, '.song:last', 'Spinning in Daffodils',
+    assertTrimmedText(assert, '.song:last', 'Spinning In Daffodils',
       'The last song is the highest ranked, last in the alphabet');
   });
 });
