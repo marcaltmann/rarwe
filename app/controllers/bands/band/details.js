@@ -4,10 +4,10 @@ export default Ember.Controller.extend({
   isEditing: false,
 
   actions: {
-    edit: function() {
+    edit() {
       this.set('isEditing', true);
     },
-    save: function() {
+    save() {
       this.set('isEditing', false);
       return true;
     },
